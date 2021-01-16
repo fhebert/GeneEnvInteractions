@@ -1,0 +1,4 @@
+useDynLib(GeneEnvInteractions)
+import(RcppEigen,Rcpp,Matrix)
+export(GEInterScoreTest,SampleGEInter)
+importFrom("stats", "cor", "rbinom")
